@@ -10,7 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="shared-styles.html">
-
+</style>
 <dom-module id="my-view3">
   <template>
     <style include="shared-styles">
@@ -22,6 +22,53 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
 
 
+    <div class="card">
+      <div class="card-content">
+	<H1><a href="https://github.com/aLahat/piper">VIPER</a></H1>
+        <p> A bash based computational algorithm and protocol managment tool.
+	<p> Very simple yet very useful.
+
+<pre>
+	~$cat commands.v
+	function _01_firstStep {
+	echo first step
+	cp some files
+	chmod 777 *
+	}
+	
+	function _02_some_R_code {
+	R --vanilla &#60;&#60;ENDOFRSCRIPT
+	countdata = read.table('aligned/merged.counts')
+	countdata = round(countdata)
+	write(countdata,"data.csv")
+	ENDOFRSCRIPT
+	}
+</pre>
+<p> now to run any steps:
+<pre>
+	~:v command 01 | bash
+	first step
+</pre>
+
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-content">
+	<H1><a href="https://github.com/aLahat/watchfile">WATCHFILE</a></H1>
+        <p> Turns any terminal into a very usefull way of writing code and scripts
+<pre>
+	~:whatchfile [file] [command]
+</pre>
+
+<p> this will run the command every time the file is updated.
+
+      </div>
+    </div>
+
+
+    </div>
 
 
   </template>

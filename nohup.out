@@ -1,0 +1,14 @@
+Starting Polyserve...
+    serving on port: 8081
+    from root: /home/lahat/my-app
+  
+Files in this directory are available under the following URLs
+    applications: http://192.168.1.7:8081
+    reusable components: http://192.168.1.7:8081/components/polymer-starter-kit/
+Starting Polyserve...
+    serving on port: 8082
+    from root: /home/lahat/my-app
+  
+Files in this directory are available under the following URLs
+    applications: http://192.168.1.7:8082
+    reusable components: http://192.168.1.7:8082/components/polymer-starter-kit/
